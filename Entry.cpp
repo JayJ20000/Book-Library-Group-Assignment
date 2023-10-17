@@ -18,12 +18,12 @@ Entry::Entry(string const &book_title,
              unsigned int const page_count,
              unsigned int const year_published,
              string const &isbn_number,
-             double const price_usd) : bookTitle(book_title),
-                                       authorName(author_name),
-                                       pageCount(page_count),
-                                       yearPublished(year_published),
-                                       isbnNumber(isbn_number),
-                                       priceUSD(price_usd) {
+             float const price_usd) : bookTitle(book_title),
+                                      authorName(author_name),
+                                      pageCount(page_count),
+                                      yearPublished(year_published),
+                                      isbnNumber(isbn_number),
+                                      priceUSD(price_usd) {
     
     // throw integer number based on parameter order number
     
@@ -96,6 +96,6 @@ string Entry::getISBN() const {
     return isbnNumber;
 }
 
-double Entry::getPrice() const {
+float Entry::getPrice() const {
     return priceUSD;
 }

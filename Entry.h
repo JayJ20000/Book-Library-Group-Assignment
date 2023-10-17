@@ -17,19 +17,19 @@ private:
     unsigned int pageCount;
     unsigned int yearPublished;
     std::string isbnNumber;
-    double priceUSD;
+    float priceUSD;
 
 public:
 
     Entry();
-    Entry(std::string const &book_title, std::string const &author_name, unsigned int const page_count, unsigned int const year_published, std::string const &isbn_number, double const price_usd);
+    Entry(std::string const &book_title, std::string const &author_name, unsigned int const page_count, unsigned int const year_published, std::string const &isbn_number, float const price_usd);
 
     std::string getTitle() const;
     std::string getAuthor() const;
     unsigned int getPageCount() const;
     unsigned int getYearPublished() const;
     std::string getISBN() const;
-    double getPrice() const;
+    float getPrice() const;
 
 
 };
