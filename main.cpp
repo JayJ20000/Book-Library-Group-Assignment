@@ -15,8 +15,9 @@ void printCatalog();
 int main() {
 
     cout << "\nBook Catalog"
-         << "\n============"
-         << "\n\nAt any point, you can leave a prompt blank\nto return to the previous screen." << endl;
+         << "\n============\n"
+         << "\nAt any point, you can leave a prompt blank"
+         << "\nto return to the previous screen." << endl;
 
     int opt = 0;
     do {
