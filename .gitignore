@@ -1,0 +1,6 @@
+# File list to ignore
+
+*.o
+*~
+*.json
+*.exe
